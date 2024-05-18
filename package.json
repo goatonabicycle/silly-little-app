@@ -9,6 +9,9 @@
     "build": "pkg . --targets node16-win-x64"
   },
   "dependencies": {
+    "archiver": "^7.0.1",
+    "cli-progress": "^3.12.0",
+    "ora": "^8.0.1",
     "pkg": "^5.8.1",
     "prompts": "^2.4.2"
   }
